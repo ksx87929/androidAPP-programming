@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="STClass">
+        <item>資工</item>
+        <item>電機</item>
+        <item>應數</item>
+        <item>應化</item>
+        <item>生機</item>
+        <item>土木</item>
+        <item>機械</item>
+        <item>電物</item>
+    </string-array>
+    <string-array name="OTHERClass">
+        <item>外語</item>
+        <item>獸醫</item>
+        <item>輔諮</item>
+    </string-array>
+    <string-array name="college">
+        <item>理工</item>
+        <item>其他</item>
+    </string-array>
+</resources>

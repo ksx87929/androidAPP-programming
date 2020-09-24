@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layoutAnimation="@anim/layout_slide_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/aname"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="TextView"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/aaddress"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="TextView"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/acomment"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="TextView"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/attcomment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="comment" />
+
+        <Button
+            android:id="@+id/aweb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="web" />
+
+        <Button
+            android:id="@+id/acall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="call" />
+
+        <Button
+            android:id="@+id/alocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="location" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
